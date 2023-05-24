@@ -58,10 +58,13 @@
     .section-description {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 100%;
     }
+
 
     .section-paragraph {
         margin-top: 49px;
+        font-size: small;
+      
     }
 }
