@@ -34,7 +34,7 @@
 .section-title h1.title {
     font-size: 70px;
     border-right: 6px solid #d11e48;
-    width: 550px;
+    width: 100%;
     font-family: 'Dancing Script', cursive;
     color: #eb9605;
 }
@@ -58,7 +58,7 @@
     .section-description {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
     }
 
 
