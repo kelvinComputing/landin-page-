@@ -24,6 +24,7 @@
 .section-description {
     display: flex;
     margin-top: 50px;
+    
 }
 
 .section-title {    
@@ -51,4 +52,16 @@
     justify-content: center;
     align-items: center;
     color: #02fcf3;
+}
+
+@media screen and (max-width: 768px) {
+    .section-description {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .section-paragraph {
+        margin-top: 49px;
+    }
 }
