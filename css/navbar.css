@@ -11,6 +11,15 @@
     display: none;
 }
 
+.header-nav ul:hover li.nav-ul-li > a {
+    color:#ab9597;
+}
+
+.header-nav ul:hover li.nav-ul-li > a:hover {
+    color: #eb9605;
+    box-shadow: 0 2px 0 0 currentColor;
+}
+
 #header-menu {
     display: flex;
     align-items: center;
@@ -40,16 +49,18 @@
     padding: 5px 0;
 }
 
-#menu-despegable ul li a{
+#menu-despegable ul li a {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
     color:white;
 }
 
+
 :hover#menu-despegable ul li a{
     color: #02fcf3;
 }
+
 
 @media(min-width: 768px) {
     .header {
@@ -87,8 +98,7 @@
         font-family: var(--font);
         text-decoration: none;
         color: var(--white);
-
-    }
+    }   
 }
 
 
