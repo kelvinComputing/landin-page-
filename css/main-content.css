@@ -62,10 +62,6 @@
         flex-wrap: wrap;
     }
 
-    .header{
-        width: auto;
-    }
-
     .section-title h1.title {
         width: auto;
     }
@@ -79,10 +75,5 @@
 
     section-title h1.title span {
         width: auto;
-     }
-
-     .footer{
-        width: auto;
-
      }
 }
