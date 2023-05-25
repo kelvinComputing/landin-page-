@@ -74,6 +74,7 @@
         margin-top: 49px;  
         width: auto;   
         font-size: small;
+        overflow: scroll;
     }
 
     section-title h1.title span {
