@@ -64,16 +64,26 @@
 
     .section-title h1.title {
         width: auto;
+        font-size: 40px;
+    }
+
+    .section.title {
+        display: flex;
+        flex-direction: column;
     }
 
     .section-paragraph {
         margin-top: 49px;  
         width: auto;   
-        font-size: small;
         overflow: scroll;
     }
 
-    section-title h1.title span {
+    .section-title h1.title span {
         width: auto;
+        font-size: 30px;
      }
+
+     #menu-despegable ul li a:hover{
+        color: #02fcf3;
+    }
 }

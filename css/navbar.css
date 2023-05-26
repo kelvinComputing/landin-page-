@@ -56,13 +56,7 @@
     color:white;
 }
 
-
-:hover#menu-despegable ul li a{
-    color: #02fcf3;
-}
-
-
-@media(min-width: 768px) {
+@media (min-width: 768px) {
     .header {
         width: auto;
         display: flex;
